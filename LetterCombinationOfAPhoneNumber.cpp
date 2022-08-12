@@ -18,7 +18,7 @@ void helper(string arr, vector<string> &ans, int index, string temp, string mapp
     }
 }
 
-void powerSet( string arr, vector<string> &ans){
+void solve( string arr, vector<string> &ans){
     string mapping[10] = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
     helper(arr, ans, 0, "", mapping);
